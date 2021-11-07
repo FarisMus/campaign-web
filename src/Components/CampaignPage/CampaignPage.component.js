@@ -25,7 +25,7 @@ const CampaignPage = () => {
 
 	return (
 		<div style={styles.container}>
-			{campaigns.map((campaign) => <CampaignCard {...campaign} />)}
+			{campaigns.map((campaign) => <CampaignCard key={campaign.order} {...campaign} />)}
 		</div>
 	);
 };

@@ -52,7 +52,7 @@ const _renderProgressBar = (percentage) => {
 };
 
 const _renderInfo = (donationReceived, daysRemaining) => {
-	const currencyFormatter = new Intl.NumberFormat('en-US', {
+	const currencyFormatter = new Intl.NumberFormat('id-ID', {
 		style: 'currency',
 		currency: 'IDR'
 	});
