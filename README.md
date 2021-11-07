@@ -10,6 +10,10 @@ You could either clone the project from the Git repository or download the proje
 
 In the project directory, you can run:
 
+### `npm install`
+
+This command installs a package and any packages that it depends on.
+
 ### `npm start`
 
 Runs the app in the development mode.\
