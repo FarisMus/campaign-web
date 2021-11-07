@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Campaign Card Component Render CampaignCard with reached target 1`] = `
+<div
+  style={
+    Object {
+      "border": "solid #d4d4d4 1px",
+      "borderRadius": "4px 4px 4px 4px",
+      "boxShadow": "4px 4px 2px #d4d4d4",
+      "margin": "0.5em",
+      "paddingBottom": "2em",
+      "width": "33em",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "height": "18em",
+        "width": "100%",
+      }
+    }
+  >
+    <img
+      alt="poster"
+      src="image.png"
+      width="100%"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "margin": "0.5em 0 0.5em 0",
+        "overflow": "hidden",
+        "padding": "0 0.5em 0 0.5em",
+        "textOverflow": "ellipsis",
+        "whiteSpace": "nowrap",
+      }
+    }
+  >
+    Campaign Title
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "padding": "0 0.5em 0 0.5em",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "border": "#ffa7f3 8px solid",
+          "borderRadius": "8px 8px 8px 8px",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": "0.5em 0.5em 0 0.5em",
+        }
+      }
+    >
+      <div>
+        Terkumpul
+      </div>
+      <div>
+        Sisa hari
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": "0.5em 0.5em 0 0.5em",
+        }
+      }
+    >
+      <div>
+        IDR 1,000,000.00
+      </div>
+      <div>
+        32
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Render Campaign Card Component Render CampaignCard with unreached target 1`] = `
+<div
+  style={
+    Object {
+      "border": "solid #d4d4d4 1px",
+      "borderRadius": "4px 4px 4px 4px",
+      "boxShadow": "4px 4px 2px #d4d4d4",
+      "margin": "0.5em",
+      "paddingBottom": "2em",
+      "width": "33em",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "height": "18em",
+        "width": "100%",
+      }
+    }
+  >
+    <img
+      alt="poster"
+      src="image.png"
+      width="100%"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "margin": "0.5em 0 0.5em 0",
+        "overflow": "hidden",
+        "padding": "0 0.5em 0 0.5em",
+        "textOverflow": "ellipsis",
+        "whiteSpace": "nowrap",
+      }
+    }
+  >
+    Campaign Title
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "padding": "0 0.5em 0 0.5em",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "border": "#636363 8px solid",
+          "borderRadius": "8px 0 0 8px",
+          "width": "2%",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "border": "#dbdbdb 8px solid",
+          "borderRadius": "0 8px 8px 0",
+          "width": "98%",
+        }
+      }
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": "0.5em 0.5em 0 0.5em",
+        }
+      }
+    >
+      <div>
+        Terkumpul
+      </div>
+      <div>
+        Sisa hari
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": "0.5em 0.5em 0 0.5em",
+        }
+      }
+    >
+      <div>
+        IDR 1,000,000.00
+      </div>
+      <div>
+        32
+      </div>
+    </div>
+  </div>
+</div>
+`;

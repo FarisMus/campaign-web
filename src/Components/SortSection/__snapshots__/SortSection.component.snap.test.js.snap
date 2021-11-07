@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Sort Section Component 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "space-between",
+      "width": "20em",
+    }
+  }
+>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#efefef",
+        "border": "none",
+        "borderRadius": "5px 5px 5px 5px",
+        "color": "#1f1d1e",
+        "padding": "1.5em",
+      }
+    }
+  >
+    Sort by donation goal
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#efefef",
+        "border": "none",
+        "borderRadius": "5px 5px 5px 5px",
+        "color": "#1f1d1e",
+        "padding": "1.5em",
+      }
+    }
+  >
+    Sort by days left
+  </button>
+</div>
+`;
