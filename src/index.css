@@ -1,0 +1,17 @@
+body, html {
+    font-family: "Avenir LT Std 45 Book", "Avenir LT Std 85 Heavy", "Montserrat", serif;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 45 Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 45 Book'), url('assets/fonts/AvenirLTStd-Book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 85 Heavy';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Avenir LT Std 85 Heavy'), url('assets/fonts/AvenirLTStd-Heavy.woff') format('woff');
+}
